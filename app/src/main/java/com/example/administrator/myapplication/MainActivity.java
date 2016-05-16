@@ -52,6 +52,7 @@ ArrayList<HashMap<String,String>>list;
                         list.add(map);
 
 
+
                     }
                     ListAdapter adapter =new SimpleAdapter(MainActivity.this,list,R.layout.layout_list,new String[]{"rank","country","population"},new int[]{R.id.textView,R.id.textView2,R.id.textView3});
                 setListAdapter(adapter);
